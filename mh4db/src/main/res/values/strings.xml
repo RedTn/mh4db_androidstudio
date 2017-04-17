@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MH4DB</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_display">Display</string>
+    <string name="button_clear">Clear</string>
+    <string name="title_activity_descript">MainActivity</string>
+    <string name="weakness">Weakness</string>
+    <string name="weakradio">Weak</string>
+    <string name="lowradio">Low</string>
+    <string name="highradio">High</string>
+    <string name="title_activity_monster">MonsterActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="monster_menu">Monsters</string>
+    <string name="search_hint">Search by name..</string>
+    <string name="item_menu">Items</string>
+    <string name="title_activity_item">ItemActivity</string>
+    <string name="title_activity_item_detail">ItemDetailActivity</string>
+    <string name="search_title">Search..</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="qty_header">Max Quantity</string>
+    <string name="rarity_header">Rarity</string>
+    <string name="action_search">Search</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="frag_name">Name</string>
+    <string name="frag_rank">Rank</string>
+    <string name="frag_qty">Qty</string>
+    <string name="sell_header">Sell</string>
+    <string name="buy_header">Buy</string>
+
+    <string-array name="mainmenu">
+        <item>Home</item>
+        <item>Monsters</item>
+        <item>Items</item>
+        <item>Maps</item>
+        <item>Weapons</item>
+    </string-array>
+    <string-array name="maps">
+        <item>Ruins Field</item>
+        <item>Underground Cave</item>
+        <item>Primeval Forest</item>
+        <item>Frozen Sea</item>
+        <item>Underground Volcano</item>
+        <item>Heavenly Mountain</item>
+        <item>Shine Area</item>
+        <item>Great Desert</item>
+        <item>Lava Island</item>
+        <item>Peak Mountain</item>
+        <item>Tower Peak</item>
+        <item>Castle Schrade</item>
+        <item>Arena</item>
+        <item>3D Area</item>
+        <item>Unknown G.Forest</item>
+    </string-array>
+
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_map_activity2">MapActivity2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="action_about_map">Details</string>
+    <string name="title_activity_map_detail">MapDetailActivity</string>
+    <string name="type_header">Type</string>
+    <string name="low_map_header">Low Rank</string>
+    <string name="high_map_header">High Rank</string>
+    <string name="title_activity_weapon">WeaponActivity</string>
+    <string name="title_activity_weapon_type">WeaponTypeActivity</string>
+
+</resources>
