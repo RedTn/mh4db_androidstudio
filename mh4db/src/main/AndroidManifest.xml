@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mh4db"
+    package="com.redtn.mh4db"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="com.redtn.mh4db.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,44 +23,44 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DescriptActivity"
+            android:name="com.redtn.mh4db.DescriptActivity"
             android:label="@string/title_activity_descript"
-            android:parentActivityName=".MonsterActivity" >
+            android:parentActivityName="com.redtn.mh4db.MonsterActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.mh4db.MonsterActivity" />
+                android:value="com.redtn.mh4db.MonsterActivity" />
         </activity>
         <activity
-            android:name=".MonsterActivity"
+            android:name="com.redtn.mh4db.MonsterActivity"
             android:label="@string/title_activity_monster"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName="com.redtn.mh4db.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.mh4db.MainActivity" />
+                android:value="com.redtn.mh4db.MainActivity" />
         </activity>
         <activity
-            android:name=".ItemActivity"
+            android:name="com.redtn.mh4db.ItemActivity"
             android:label="@string/title_activity_item"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName="com.redtn.mh4db.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.mh4db.MainActivity" />
+                android:value="com.redtn.mh4db.MainActivity" />
         </activity>
         <activity
-            android:name=".ItemDetailActivity"
+            android:name="com.redtn.mh4db.ItemDetailActivity"
             android:label="@string/title_activity_item_detail"
-            android:parentActivityName=".ItemActivity" >
+            android:parentActivityName="com.redtn.mh4db.ItemActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.mh4db.ItemActivity" />
+                android:value="com.redtn.mh4db.ItemActivity" />
         </activity>
         <activity
-            android:name=".MapActivity"
+            android:name="com.redtn.mh4db.MapActivity"
             android:label="@string/title_activity_map"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName="com.redtn.mh4db.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.mh4db.MainActivity" />
+                android:value="com.redtn.mh4db.MainActivity" />
         </activity>
         <!--
         <activity
@@ -69,27 +69,29 @@
             android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.mh4db.MainActivity" />
-        </activity>
+                android:value="redtnh4db.MainActivity" />
+        </activity>
+
+
         -->
         <activity
-            android:name=".MapDetailActivity"
+            android:name="com.redtn.mh4db.MapDetailActivity"
             android:label="@string/title_activity_map_detail"
-            android:parentActivityName=".MapActivity" >
+            android:parentActivityName="com.redtn.mh4db.MapActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.mh4db.MapActivity" />
+                android:value="com.redtn.mh4db.MapActivity" />
         </activity>
         <activity
-            android:name=".WeaponActivity"
+            android:name="com.redtn.mh4db.WeaponActivity"
             android:label="@string/title_activity_weapon" >
         </activity>
         <activity
-            android:name=".WeaponTypeActivity"
+            android:name="com.redtn.mh4db.WeaponTypeActivity"
             android:label="@string/title_activity_weapon_type" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.mh4db.WeaponActivity" />
+                android:value="com.redtn.mh4db.WeaponActivity" />
         </activity>
     </application>
 

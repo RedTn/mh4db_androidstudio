@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
 
     defaultConfig {
-        applicationId "com.example.mh4db"
+        applicationId "com.redtn.mh4db"
         minSdkVersion 16
         targetSdkVersion 21
         compileOptions {

@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.mh4db.MapDetailActivity" >
+    tools:context="com.redtn.mh4db.MapDetailActivity" >
 
     <item
         android:id="@+id/action_settings"

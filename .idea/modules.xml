@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/gestureimageview/gestureimageview.iml" filepath="$PROJECT_DIR$/gestureimageview/gestureimageview.iml" />
       <module fileurl="file://$PROJECT_DIR$/mh4db/mh4db.iml" filepath="$PROJECT_DIR$/mh4db/mh4db.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mh4db1.iml" filepath="$PROJECT_DIR$/mh4db1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mh4db_androidstudio.iml" filepath="$PROJECT_DIR$/mh4db_androidstudio.iml" />
     </modules>
   </component>
 </project>
